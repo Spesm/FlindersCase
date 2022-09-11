@@ -1,0 +1,21 @@
+{
+    "name": "sem/flinderscase",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.5"
+    },
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Sem\\FlindersCase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sem van Lent",
+            "email": "semvlent@gmail.com"
+        }
+    ],
+    "require": {}
+}
